@@ -10,7 +10,7 @@ ProductManager::~ProductManager()
 }
 
 bool ProductManager::Insert(Product p){
-	bool status=false;
+	bool status = false;
 	products.push_back(p);
 	status=true;
 	return status;
